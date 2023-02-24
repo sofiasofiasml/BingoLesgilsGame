@@ -1,0 +1,4 @@
+var MODEL = {
+    init: function()
+    {}
+}

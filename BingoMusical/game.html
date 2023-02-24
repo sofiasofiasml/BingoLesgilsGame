@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/gamestyle.css" rel="stylesheet" type="text/css">
+    <script src = 
+    "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" >
+        </script>
+          <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+          <!-- Make sure that you load lodash before the file that uses it. -->
+          <script src="file-that-uses-lodash.js"></script>
+</head>
+<body>
+    <div id="juego">
+        <div class="carton cartonJugador">
+          <div class="etiqueta">Player</div>
+        </div>
+        <div id="bingo">
+          <div id="bola"></div>
+          <button onClick="CORE.sacarBola();">SACAR BOLA</button>
+        </div>
+        <div class="carton cartonCpu">
+          <div class="etiqueta">CPU</div></div>
+      </div>
+</body>
+
+<script src="js/CORE.js"></script>
+<script src="js/MODEL.js"></script>
+<script src="js/VIEW.js"></script>
+
+<script>CORE.init();</script>
+</html>

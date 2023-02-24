@@ -1,0 +1,4 @@
+var VIEW = {
+    init: function()
+    {}
+}
